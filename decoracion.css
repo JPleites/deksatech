@@ -1,0 +1,232 @@
+*{
+	text-align: justify-all;
+}
+nav{
+	text-align: center;
+	background-color: #FDF3E5;
+	padding: 0;
+}
+
+nav a{
+	color: #ed5958;
+	font-size: 25px;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+
+}
+
+/*Imagen Principal*/
+img{
+	width: 45%;
+}
+
+/*Logo en cada pagina*/
+
+.logo img{
+	width: 35%;
+}
+
+/*Letra en Quien somos*/
+
+.qs-font{
+	font-size: 25px;
+}
+
+/*Acceso Directos*/
+
+.AD{
+	font-size: 25px;
+}
+.AD a{
+	color: #ed5958;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.AD p{
+	text-align: center;
+}
+
+/*Historia del Nombre*/
+
+.nombre{
+	font-size: 20px;
+	text-align: justify;
+}
+.nombre b{
+	color: red;
+}
+.textos-encab{
+	text-align: center;
+    font-size: 45px;
+    color: #122964;
+}
+
+/*Objetivos*/
+
+.movimiento{
+	text-align: center;
+}
+
+/*Menu de Aparatos*/
+
+.menu-apara td{
+	font-size: 20px;
+}
+
+.catalog img{
+	width: 230px;
+}
+
+.prv{
+	font-size: 30px;
+	text-align: center;
+	color: blue;
+}
+
+.prv{
+	width: 150px;
+}
+/*Canvas*/
+
+.canvas img{
+	width: 85%;
+}
+
+/*Quienes somos*/
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cards .card{
+    background: #FFD491;
+    display: flex;
+    width: 25%;
+    height: 250px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+}
+
+.cards .card > .contenido-texto-card{
+    width: 60%;
+}
+
+.cards .card > .contenido-texto-card p{
+    font-weight: 300;
+    padding-top: 5px;
+}
+
+/*Pie de la pagina*/
+
+footer{
+    background: #FDF3E5;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #FDF3E5;
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color: #565A97;
+    border-bottom: 3px solid #ed5958;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #ed5958;
+}
+@media screen and (max-width:1100px){
+	 /*Visión y Misión*/
+	 .cards{
+        flex-direction:  column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cards .card{
+        height: 350px;
+        width: 90%;
+    }
+    .cards .card:first-child{
+        margin-bottom: 30px; 
+    }
+    /*Index*/
+    .textos-encab{
+    	font-size: 35px;
+    }
+    img{
+    	width: 95%;
+
+    }
+
+    /*Quienes somos*/
+
+    .logo img{
+    	width: 95%;
+    }
+    .movimiento{
+    	text-align: left;
+    }
+
+    /*Catalogo*/
+
+    .catalog img{
+    	width: 50px;
+    }
+
+    .prv{
+    	font-size: 18px;
+    }
+
+    /*Canvas*/
+
+    .canvas img{
+    	width: 95%;
+    }
+	/* Footer */
+
+    .contenedor-footer{
+        flex-direction: column;
+        border: none;
+    }
+
+    .content-foo{
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .content-foo h4{
+        border: none;
+    }
+
+    .content-foo p{
+        border-bottom: 2px solid #ed5958;
+        padding-bottom: 5px;
+    }
+
+    .titulo-final{
+        font-size: 20px;
+    }
